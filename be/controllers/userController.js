@@ -1,3 +1,9 @@
+//  FUNGSI CONTROLLER //
+// handle request and response
+// terima request, validate body, etc.
+// ... (Business Logic Di Service)
+// kirim response
+
 const { db, query } = require("../database/index"); //mysql
 const moment = require("moment"); // ubah format tanggal
 const Crypto = require("crypto"); // for encrypt
